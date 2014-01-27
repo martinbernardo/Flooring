@@ -1,0 +1,4 @@
+# ignore all in the build dir
+bin/
+obj/
+
