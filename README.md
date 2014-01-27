@@ -18,7 +18,7 @@ and when verifying the solution a different set of tiles will be used. You have 
 and the tile class may be as simple as a simple data holder struct or can contain member functions. 
 Optimization and performance is a factor.
 
-
+<pre>
 TileCombiner.combine(
 [new Tile([[1, 3, 5, 7],
            [1, 0, 0, 8],
@@ -49,27 +49,26 @@ new Tile([[1, 3, 5, 7],
            [1, 0, 0, 8],
            [7, 0, 0, 8],
            [7, 4, 5, 8]])]);
-
+</pre>
 
 Sample Output:
 
 RESULT:
-
+<pre>
 [1, 1, 7, 1] - [1, 3, 5, 7] - [7, 3, 7, 1]
 [8, 0, 0, 1] - [1, 0, 0, 8] - [8, 0, 0, 0]
 [8, 0, 0, 7] - [7, 0, 0, 8] - [8, 0, 0, 4]
 [7, 5, 3, 7] - [7, 4, 5, 8] - [8, 2, 8, 1]
 
-                |  |  |  |     |  |  |  |
-
                [7, 4, 5, 8] - [8, 2, 8, 1]
                [0, 0, 0, 5] - [5, 0, 0, 1]
                [0, 0, 0, 4] - [4, 0, 0, 1]
                [1, 8, 2, 1] - [1, 5, 3, 1]
-
+</pre>
 UNUSED:
-
+<pre>
 [1, 7, 7, 7]
 [1, 0, 0, 3]
 [7, 0, 0, 3]
 [6, 5, 2, 0]
+</pre>
