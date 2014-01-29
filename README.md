@@ -1,7 +1,7 @@
 Flooring
 ========
 
-Flooring excersize project
+Flooring exercise project
 
 
 Problem Statement
