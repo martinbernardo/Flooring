@@ -5,7 +5,7 @@ Flooring exercise project
 
 
 Problem Statement
-========
+-------------
 Write a program in your favorite language (provided it supports multi-dimensional arrays), 
 in which there is a class or struct called Tile, which takes a multi-dimensional array of 4, 4 long int arrays. 
 Tiles are essentially number squares, each side containing 4 ints. 
@@ -19,6 +19,7 @@ and the tile class may be as simple as a simple data holder struct or can contai
 Optimization and performance is a factor.
 
 <pre>
+<code>
 TileCombiner.combine(
 [new Tile([[1, 3, 5, 7],
            [1, 0, 0, 8],
@@ -49,6 +50,7 @@ new Tile([[1, 3, 5, 7],
            [1, 0, 0, 8],
            [7, 0, 0, 8],
            [7, 4, 5, 8]])]);
+</code>
 </pre>
 
 Sample Output:
@@ -72,3 +74,14 @@ UNUSED:
 [7, 0, 0, 3]
 [6, 5, 2, 0]
 </pre>
+
+
+How to compile and run
+-------------
+
+This project was developed in Visual Studio 2012 c# .NET 4.5
+
+Open the solution and simply run / debug
+
+
+
